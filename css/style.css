@@ -1,0 +1,31 @@
+/*Encabezado */
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(1, 79, 121);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.titulo{
+    color: white;
+}
+
+/*Lista menu*/
+
+.logo{
+    display: flex;
+    gap:20px
+}
+.menu{
+    list-style: none;
+    flex-direction: row-reverse;
+}
+
+
+
