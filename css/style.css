@@ -6,7 +6,8 @@
 }
 /*Color del cuerpo*/
 body{
-    background-color: rgb(250, 241, 161);
+    background-color: rgb(244, 238, 182);
+    margin: 20px
 }
 
 /*Encabezado */
@@ -93,7 +94,7 @@ header {
 .img_uno{
     width: 80%;
     height: 100;
-    border:20px
+    border: 50px;
     
 }
 
@@ -101,7 +102,7 @@ header {
     max-width: 100%; 
     height: auto; 
     object-fit: cover
-    mask-image: 
+    mask-image;
     linear-gradient(to top, transparent, black 10%),
     linear-gradient(to bottom, transparent, black 10%),
     linear-gradient(to left, transparent, black 40%),
