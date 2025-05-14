@@ -1,3 +1,14 @@
+/*Cambios de tamaños*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*Color del cuerpo*/
+body{
+    background-color: rgb(250, 241, 161);
+}
+
 /*Encabezado */
 
 header {
@@ -65,20 +76,83 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
+  gap: 50px;
   margin: 40px;
 }
 
 
 .columna-texto{
-    flex:1;
+    flex:0 0 45%;
+    overflow-y: auto;
+  
 }
 .columna-img{
-    flex:1;
+    flex: 1;
+    overflow: hidden;
 }
 .img_uno{
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    height: 100;
+    border:20px
+    
 }
 
+.img_uno{
+    max-width: 100%; 
+    height: auto; 
+    object-fit: cover
+    mask-image: 
+    linear-gradient(to top, transparent, black 10%),
+    linear-gradient(to bottom, transparent, black 10%),
+    linear-gradient(to left, transparent, black 40%),
+    linear-gradient(to right, transparent, black 10%);
+  mask-composite: intersect;
+  -webkit-mask-image: 
+    linear-gradient(to top, transparent, black 10%),
+    linear-gradient(to bottom, transparent, black 10%),
+    linear-gradient(to left, transparent, black 10%),
+    linear-gradient(to right, transparent, black 10%);
+  -webkit-mask-composite: destination-in;
 
+}
+
+/*Cards beneficios*/
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+}
+
+.card{
+    padding: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.card-img{
+    height: 250px;
+    width: auto;
+}
+
+/*Registro*/
+
+.inregistro{
+    margin: 10%;
+    display: flex;
+    justify-content:center;
+         
+}
+
+.boxRegistro{
+
+    padding: 200px;
+    height: 200px;
+    background-color: #004d73;
+    border-radius: 20px;    
+}
+
+.registros{
+    color:white;
+    text-decoration:  none;
+    
+}
