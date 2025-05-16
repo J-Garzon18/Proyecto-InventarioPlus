@@ -4,13 +4,15 @@
 *::after {
   box-sizing: border-box;
 }
+
 /*Color del cuerpo*/
 body{
-    background-color: rgb(250, 241, 161);
+    background-color: rgb(248, 241, 182);
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
 }
 
 /*Encabezado */
-
 header {
     background-color: #004d73;
     padding: 20px;
@@ -25,7 +27,6 @@ header {
 }
 
 /*MENU CON LINEAS BLANCAS */
-
 .titulo a {
     color: white;
     text-decoration: none;
@@ -135,14 +136,6 @@ header {
 }
 
 /*Registro*/
-
-.inregistro{
-    margin: 10%;
-    display: flex;
-    justify-content:center;
-         
-}
-
 .boxRegistro{
 
     padding: 200px;
