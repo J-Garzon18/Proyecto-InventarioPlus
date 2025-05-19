@@ -1,20 +1,30 @@
-/*Cambios de tamaños*/
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
 /*Color del cuerpo*/
-body{
-    background-color: rgb(244, 238, 182);
-    margin: 20px
+body {
+    background-image: url(/img/imgfondo.webp);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;   
+    height: 100vh;
+    color: #fff;
+   
 }
-
 /*Encabezado */
 
 header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
     background-color: #004d73;
-    padding: 20px;
+    padding: 0 5%;
+    height: 100px;
     color: white;
 }
 
@@ -156,4 +166,102 @@ header {
     color:white;
     text-decoration:  none;
     
+}
+
+
+/*REGISTRO E INICIO DE SESION*/
+
+/*Registro*/
+
+.inregistro{
+    margin: 10%;
+    display: flex;
+    justify-content:center;
+         
+}
+
+.boxRegistro{
+
+    padding: 200px;
+    height: 200px;
+    background-color: #004d73;
+    border-radius: 20px;    
+}
+
+.registros{
+    color:white;
+    text-decoration:  none;
+    
+}
+
+
+
+
+
+/* FORMULARIO REGISTRO "registro.html*/
+
+#form-register {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+ 
+}
+
+.form-register{
+    width: 400px;
+    background-color: #24303c;
+    padding:30px;
+    margin:auto;
+    margin-top: 200px;
+    border-radius: 4px;
+    font-family: "calibri";
+    color:white;
+    background-color: #004d73;
+    border-radius: 10px;
+    font-family: 'calibri';
+    color:white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+  font-size:15px;
+  margin-bottom: 10px;
+  font-family: "calibri";
+}
+
+.controles{
+    width: 100%;
+    background-color: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 1px;
+    border: 1px solid #24303c;
+    font-size :15px;
+    color: white;
+}
+
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.form-register a{
+    color: white;
+    text-decoration: underline;
+}
+
+.form-register .boton{
+    width: 100%;
+    background-color: white;
+    border: none;
+    padding:10px;
+    color: #004d73;
+    margin-top:20px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.form-register h2{
+    text-align: center;
 }
